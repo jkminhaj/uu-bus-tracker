@@ -7,6 +7,6 @@ import WebApp from './WebApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <WebApp></WebApp>
+     <RouterProvider router={router} />
   </React.StrictMode>,
 )

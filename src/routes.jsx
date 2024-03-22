@@ -3,6 +3,6 @@ import WebApp from "./WebApp";
 export const router = createBrowserRouter([
     {
       path: "/",
-      element:<WebApp />,
+      element:<WebApp></WebApp>,
     },
   ]);
