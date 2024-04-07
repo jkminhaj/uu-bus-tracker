@@ -95,7 +95,7 @@ function WebApp() {
 
   return (
     <div>
-      <div id="map" style={{ width: '100%', height: '400px' }}></div>
+      <div id="map" style={{ width: '100%', height: '600px' }}></div>
       {location ? (
         <p>Latitude: {location.latitude}, Longitude: {location.longitude}</p>
       ) : (
